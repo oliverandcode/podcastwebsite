@@ -1,10 +1,10 @@
-title: Survivor Team Go!
-subtitle: Support. Recover. Thrive.
-header_logo: https://s3-us-west-1.amazonaws.com/www.survivorteamgo.com/STG-artemisia-150.png
-author: 'The Survivor Team'
+title: Podcast Title
+subtitle: Podcast Subtitle
+header_logo: s3link (150x150 image)
+author: 'The Fellowship of the Incarnate Divine'
 webmaster: 'Oliver Ayers'
-url: http://www.survivorteamgo.com/
-itunes_subscribe_link: https://itunes.apple.com/us/podcast/survivor-team-go/id1361306238?mt=2
+url: http://www.URL.com/
+itunes_subscribe_link: copyAndPasteItunesSubscribeLinkHere
 
 markdown: kramdown
 timezone: America/Los_Angeles
@@ -18,18 +18,19 @@ about_oliver_pic: https://s3-us-west-1.amazonaws.com/www.survivorteamgo.com/abou
 
 # podcast metadata
 podcast_copyright: 2019 FID Productions. All rights reserved.
-podcast_title: 'Survivor Team Go!' # as opposed to episode_title
-podcast_creator: 'The Survivor Team' # same as author
+podcast_title: 'Podcast Title' # as opposed to episode_title
+podcast_creator: 'The Fellowship of the Incarnate Divine' # same as author
 podcast_owner: 'FID Productions' # distinct from author i guess?
 # min 1400x1400 max 3000x3000 (original is 2000x2000)
-podcast_art: https://s3-us-west-1.amazonaws.com/www.survivorteamgo.com/STG-artemisia-1400-compressed-x5.png
-podcast_email: survivorteamgo@gmail.com
-itunes_category: 'Society &amp; Culture'
-itunes_subcategory: 'Personal Journals'
-itunes_explicit: 'yes' # contains cursing
-podcast_description: 'A podcast by and for survivors!'
-podcast_summary: 'Join Bailey and Oliver as we discuss our favorite survivor stories, interview fellow survivors, and share survivor tips. Welcome to the island! This is a safe space. Trigger warning: everything. Bummers welcome.'
-podcast_subtitle: 'Support. Recover. Thrive.'
+podcast_art: compressed art s3 link - 1500 by 1500 but small file size
+podcast_email: podcastemail@gmail.com
+# must use &amp; if the category or subcategory contains an ampersand (&)
+itunes_category: 'iTunes Category' 
+itunes_subcategory: 'iTunes Subcategory' # if applicable
+itunes_explicit: 'yes' # contains cursing (or adult content)
+podcast_description: 'Podcast description - short'
+podcast_summary: 'Podcast summary - longer'
+podcast_subtitle: 'Podcast subtitle - very short'
 
 defaults:
   - scope:
@@ -39,9 +40,9 @@ defaults:
       # site specific
       layout: 'episode'
       # iTunes podcast metadata
-      author: 'The Survivor Team'
-      artist: 'The Survivor Team' # artist or host
-      voices: ['Oliver Ayers', 'Bailey Davenport'] # overridden on episodes with guests
-      copyright: '2018 FID Productions. All rights reserved.' # ???
-      website: http://www.survivorteamgo.com/
+      author: 'The Fellowship of the Incarnate Divine'
+      artist: 'The Fellowship of the Incarnate Divine' # artist or host
+      voices: ['Host1 Name', 'Host2 Name'] # overridden on episodes with guests
+      copyright: '2019 FID Productions. All rights reserved.' # ???
+      website: http://www.URL.com/
 

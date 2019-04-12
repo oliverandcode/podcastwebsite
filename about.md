@@ -5,7 +5,7 @@ title: about
 description: about page
 ---
 
-![Survivor Team Go! logo]( {{ site.podcast_art }} )
+![Podcast Title logo]( {{ site.podcast_art }} )
 
 # Who We Are:
 

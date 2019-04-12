@@ -44,6 +44,8 @@ description: a list of episodes laid out like a blog
                 </h5>
                 <!-- if i had an image it would go here -->
                 <p>{{ ep.content }}</p>
+                <hr />
+                <p>We want to hear from YOU! Email us at <a href="mailto:{{ site.podcast_email }}">{{ site.podcast_email }}</a> with your story! Let us know if you want us to feature you on the show!</p>
             </div>
         {% endfor %}
     </div>
@@ -51,7 +53,7 @@ description: a list of episodes laid out like a blog
         <div class="card">
             <h2><a href="{{ site.url }}/about">About</a></h2>
             <!-- our pics go here -->
-            <p>Bailey and Oliver are the hosts of Survivor Team Go! a podcast by and for survivors. They share a commitment to elevating the voices and stories of survivors.</p>
+            <p>Bailey and Oliver are the hosts of {{ site.podcast_title }}.</p>
         </div>
         <div class="card">
             <h2>Latest Episodes</h2>
